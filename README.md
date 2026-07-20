@@ -10,10 +10,10 @@ This repository contains the RTL design and FPGA hardware implementation of a pa
 ## Repository Structure
 * `/rtl` - SystemVerilog source files (`top.v`, `spi_master.v`, etc.)
 * `/tb` - Simulation testbench files (`tb_top.v`)
-* `/constraints` - Physical FPGA pin mapping files (e.g., `.xdc` / `.qsf`)
+* `/constraints` - Physical FPGA pin mapping files (e.g., `.xdc`)
 * `/docs` - Hardware setup photos, block diagrams, power reports, and simulation waveforms.
 
 ## Toolchain & Hardware
-* **Target Hardware:** FPGA (e.g., Xilinx / Intel platform)
+* **Target Hardware:** Basys3 FPGA (e.g., Xilinx)
 * **Sensor:** Analog Devices ADXL362 (3-axis MEMS Accelerometer)
 * **Design Language:** Verilog
